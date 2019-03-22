@@ -1,0 +1,120 @@
+<resources>
+    <!--TITULO DE LA APP-->
+    <string name="app_name">Tornasol</string>
+
+    <!--Campos obligatorios-->
+    <string name="camposObligatorios">Los datos marcados con * son obligatorios</string>
+
+    <!--Seleccione una funcion-->
+    <string name="seleccioneFuncion">Seleccione una funcion</string>
+
+    <!--OPERACIONES-->
+    <string name="OP_ACEPTAR">Aceptar</string>
+    <string name="OP_CALCULAR">Calcular</string>
+    <string name="OP_EDITAR">Editar</string>
+    <string name="OP_ELIMINAR">Eliminar</string>
+
+    <!--CATALOGOS-->
+
+    <!--Tipo de Periodo-->
+    <string-array name="CTG_PERIODO">
+        <item>Dia</item>
+        <item>Semana</item>
+        <item>Mes</item>
+    </string-array>
+
+
+    <!--IUF1 Gestionar Funcionalidades -->
+    <string name="IUF1_TITLE">Tornasol</string>
+    <string name="IUF1_BTN1">Agegar \n Dispositivo</string>
+    <string name="IUF1_BTN2">Paneles \n Fotovoltaicos</string>
+    <string name="IUF1_BTN3">Calculadora \n Orientación Inicial</string>
+    <string name="IUF1_BTN4">Monitorear Mecanismo</string>
+
+    <!--IUF1.1 Gestionar Dispositivos -->
+    <string name="IUF1_1_TITLE">Gestionar \nDispositivos</string>
+    <string name="IUF1_1_LBL1">Paneles fotovoltaicos</string>
+    <string name="IUF1_1_LBL2">Baterías</string>
+    <string name="IUF1_1_THEAD1">Panel fotovoltaico</string>
+    <string name="IUF1_1_THEAD2">Voltaje máximo</string>
+    <string name="IUF1_1_THEAD3">Corriente máxima</string>
+    <string name="IUF1_1_THEAD5">Batería</string>
+    <string name="IUF1_1_THEAD6">Voltaje minimo</string>
+    <string name="IUF1_1_THEAD7">Número de celdas</string>
+    <string name="IUF1_1_THEAD8">Temperatura máxima</string>
+    <string name="IUF1_1_THEAD9">Memoria</string>
+
+    <!--IUF1.1.1 Agregar panel -->
+    <string name="IUF1_1_1_TITLE">Agregar \npanel fotovoltaico</string>
+    <string name="IUF1_1_1_LBL1">Nombre</string>
+    <string name="IUF1_1_1_LBL2">Voltaje máximo</string>
+    <string name="IUF1_1_1_LBL3">Corriente máxima</string>
+
+    <!--IUF1.1.2 Modificar panel -->
+    <string name="IUF1_1_2_TITLE">Modificar\npanel fotovoltaico</string>
+    <string name="IUF1_1_2_LBL1">Nombre</string>
+    <string name="IUF1_1_2_LBL2">Voltaje máximo</string>
+    <string name="IUF1_1_2_LBL3">Corriente máxima</string>
+
+
+    <!--IUF1.1.3 Agregar Bateria -->
+    <string name="IUF1_1_3_TITLE">Agregar batería</string>
+    <string name="IUF1_1_3_LBL1">Nombre</string>
+    <string name="IUF1_1_3_LBL2">Voltaje máximo</string>
+    <string name="IUF1_1_3_LBL3">Voltaje minimo</string>
+    <string name="IUF1_1_3_LBL4">Número de celdas</string>
+    <string name="IUF1_1_3_LBL5">Temperatura máxima</string>
+    <string name="IUF1_1_3_LBL6">Memoria</string>
+
+    <!--IUF1.1.4 Modificar Bateria -->
+    <string name="IUF1_1_4_TITLE">Modificar \nbatería</string>
+    <string name="IUF1_1_4_LBL1">Nombre</string>
+    <string name="IUF1_1_4_LBL2">Voltaje máximo</string>
+    <string name="IUF1_1_4_LBL3">Voltaje minimo</string>
+    <string name="IUF1_1_4_LBL4">Número de celdas</string>
+    <string name="IUF1_1_4_LBL5">Temperatura máxima</string>
+    <string name="IUF1_1_4_LBL6">Memoria</string>
+
+
+    <!--IUF1.2 Mostrar Funcionamiento de los Paneles Fotovoltaicos-->
+    <string name="IUF1_2_TITLE">Paneles \n Fotovoltaicos</string>
+    <string name="IUF1_2_LBL1">Funcionamiento</string>
+    <string name="IUF1_2_LBL2">Instalacion</string>
+
+    <!--IUF1.3 Indicar inclinacion optima de un Panel Fotovoltaico-->
+    <string name="IUF1_3_TITLE">Orientacion \ninicial</string>
+    <string name="IUF1_3_LB1">Ubicacion</string>
+    <string name="IUF1_3_LB2">Estacion del año</string>
+    <string name="IUF1_3_BTN1">Calcular</string>
+    <string name="IUF1_3_LB3">La orientacion del panel fotovoltaico debe de ser %d al %d</string>
+
+    <!--IUMG1 Monitorear mecanismo de generacion de energia-->
+    <string name="IUMG1_TITLE">Monitorear Mecanismo de Generacion de Energia</string>
+    <string name="IUMG1_BTN1">Panel Fotovoltaico</string>
+    <string name="IUMG1_BTN2">Bateria</string>
+    <string name="IUMG1_LBL1">Codigo de vinculacion</string>
+    <string name="IUMG1_LBL2">Codigo</string>
+
+
+    <!--IUMG1.1 Monitorear bateria-->
+    <string name="IUMG1_1_TITLE">Monitorear Bateria</string>
+    <string name="IUMG1_1_LBL1">Estado de la bateria</string>
+    <string name="IUMG1_1_LBL2">Capacidad de carga</string>
+    <string name="IUMG1_1_LBL3">Tipo de periodo</string>
+    <string name="IUMG1_1_LBL4">Rendimiento</string>
+
+    <!--IUMG1.2 Monitorear panel fotovoltaico-->
+    <string name="IUMG1_2_TITLE">Monitorear Panel Fotovoltaico</string>
+    <string name="IUMG1_2_LBL1">Tipo de periodo</string>
+    <string name="IUMG1_2_LBL2">Rendimiento</string>
+    <string name="title_activity_maps">Map</string>
+
+    <!-- -->
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_gestionar_dispositivos">Gestionar Dispositivos</string>
+
+
+    <!-- -->
+</resources>
